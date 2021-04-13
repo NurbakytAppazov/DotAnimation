@@ -39,7 +39,7 @@ const Circle = ({onPress, animatedValue}) => {
             {
               translateX: animatedValue.interpolate({
                 inputRange: [0, 0.5, 1],
-                outputRange: ['0%', '30%', '0%']
+                outputRange: ['0%', '50%', '0%']
               })
             }
           ]
